@@ -4,12 +4,11 @@ CKEDITOR.plugins.add( 'video', {
 		editor.addCommand( 'video', new CKEDITOR.dialogCommand( 'videoDialog' ) );
 
 		editor.ui.addButton( 'Video', {
-			label: 'Insert Video',
+			label: '视频',
 			command: 'video',
 			toolbar: 'insert'
 		});
 
 		CKEDITOR.dialog.add( 'videoDialog', this.path + 'dialogs/video.js' );
     }
-
 });

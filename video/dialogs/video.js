@@ -1,6 +1,6 @@
 CKEDITOR.dialog.add( 'videoDialog', function ( editor ) {
 	return {
-        title: 'Video Properties',
+        title: '视频属性',
         minWidth: 400,
         minHeight: 200,
 
@@ -12,8 +12,8 @@ CKEDITOR.dialog.add( 'videoDialog', function ( editor ) {
 					{
 						type: 'text',
 						id: 'flvLink',
-						label: 'insert url of the VIDEO',
-						validate: CKEDITOR.dialog.validate.notEmpty( "cannot be empty!" )
+						label: '输入视频路径',
+						validate: CKEDITOR.dialog.validate.notEmpty( "视频路径不能为空！" )
 					}
                 ]
             }
